@@ -5,6 +5,13 @@
 
 WIDTH = 600 # Lebar window
 HEIGHT = 300 # Tinggi window
-
 TITLE = "Judul Game" # Judul untuk window game
 FPS = 30 # Jumlah frame per detik
+
+#buat karakter disini
+alien = Actor('alien', (50, 240))
+background = Actor("background")
+
+def draw():
+  background.draw()
+  alien.draw()
